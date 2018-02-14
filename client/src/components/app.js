@@ -1,12 +1,12 @@
 import React from 'react';
-import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AddList from './addlist';
 
 const App = () => (
     <div>
         <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
+            <h1 className="text-center">Test ToDo</h1>
+            <AddList />
         </div>
     </div>
 );
