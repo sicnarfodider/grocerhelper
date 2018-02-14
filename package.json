@@ -1,0 +1,22 @@
+{
+  "name": "grocerhelper",
+  "version": "1.0.0",
+  "description": "\"a grocery listing app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sicnarfodider/grocerhelper.git"
+  },
+  "author": "Francis Gerard Redido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sicnarfodider/grocerhelper/issues"
+  },
+  "homepage": "https://github.com/sicnarfodider/grocerhelper#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
